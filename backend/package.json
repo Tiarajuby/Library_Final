@@ -6,7 +6,10 @@
   "type": "module",
   "scripts": {
   "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "index.js build",
+    "test": "index.js test",
+    "eject": "index.js eject"
   },
   "keywords": [],
   "author": "",
